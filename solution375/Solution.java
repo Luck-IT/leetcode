@@ -9,20 +9,22 @@ public class Solution {
         if (n == 2) {
             return 1;
         }
-        int[][] dp = new int[n + 1][n + 1];
-        for (int i = 0; i <= n; i++) {
-            dp[i][i] = 0;
+        int[][] dp = new int[n+1][n+1];
+        return cost(1,n,dp);
+    }
+    int cost(int low,int high,int[][] dp){
+        if(low>=high){
+            return 0;
         }
-        for (int len = 2; len <= n; len++) {
-            for (int start = 1; start < n - len + 1; start++) {
-                int min = Integer.MAX_VALUE;
-                for(int piv = start;piv<=start+len-1;piv++){
-                    int tmp = Math.min(dp[start][piv-1],dp[piv+1][start+len-1]);
-                    min = Math.min(min,tmp+piv);
-                }
-                dp[start][n-len+1]=min;
-            }
+        if(dp[low][high] != 0){
+            return dp[low][high];
         }
-        return dp[1][n];
+        int min = Integer.MAX_VALUE;
+        for(int i = (low+high)/2;i<=high;i++){
+            int tmp = Math.max(cost(low,i-1,dp), cost(i+1,high,dp));
+            min = Math.min(tmp+i, min);
+        }
+        dp[low][high] = min;
+        return min;
     }
 }
