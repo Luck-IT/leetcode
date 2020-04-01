@@ -78,19 +78,4 @@ public class Solution {
         return count;
     }
     //-------------------------------------------
-    public static void main(String[] args){
-        Solution s = new Solution();
-        int[] nums = new int[]{2,1,3};
-        int target = 35;
-        long start = System.currentTimeMillis();
-        System.out.println(s.combinationSum4(nums, target));
-        long duration = (System.currentTimeMillis() - start)/1000;
-        start = System.currentTimeMillis();
-        System.out.println(s.combinationSum4_2(nums, target));
-        long duration2 = (System.currentTimeMillis() - start)/1000;
-        start = System.currentTimeMillis();
-        System.out.print(s.combinationSum4_3(nums, target));
-        long duration3 = (System.currentTimeMillis() - start)/1000;
-        System.out.println();
-    }
 }
