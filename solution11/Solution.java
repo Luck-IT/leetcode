@@ -1,4 +1,3 @@
-package solution11;
 /**
 * Solution
 * #description#
@@ -14,24 +13,16 @@ public class Solution {
         }
 
         int max = Integer.MIN_VALUE;
-        for(int i=0;i<height.length;i++){
-            for(int j=height.length-1;j>=i;j--){
-                if(i ==j){
-                   max = max>0?max:0;
-                }else{
-                    int tmp = (j-i)* (height[i]>height[j]?height[j]:height[i]);
-                    max = tmp>max?tmp:max;
-                }
+        for(int i=0,j=height.length-1;i<j;){
+            int tmp = (height[i]>height[j]?height[j]:height[i])*(j-i);
+            max = tmp>max?tmp:max;
+            if(height[i]>height[j]){
+                j--;
+            }else{
+                i++;
             }
         }
         return max;
-    }
-
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        int[] height = new int[]{4,3,2,1,4};
-        int result = s.maxArea(height);
-        System.out.println(result);
     }
 
 }
