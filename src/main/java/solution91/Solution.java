@@ -1,6 +1,6 @@
-import java.util.ArrayList;
+package solution91;
 import java.util.List;
-
+import java.util.ArrayList;
 /**
  * leetcode 91
  */
