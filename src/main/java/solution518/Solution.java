@@ -43,10 +43,4 @@ class Solution {
         return dp[amount];
     }
 
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        int result = s.change(5, new int[]{1,2,5});
-        System.out.println(result);
-    }
-
 }
