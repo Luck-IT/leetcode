@@ -22,6 +22,38 @@
     <module>solution1</module>
     <module>solution84</module>
     <module>solution3</module>
+    <module>solution11</module>
+    <module>solution17</module>
+    <module>solution19</module>
+    <module>solution20</module>
+    <module>solution24</module>
+    <module>solution26</module>
+    <module>solution34</module>
+    <module>solution35</module>
+    <module>solution36</module>
+    <module>solution37</module>
+    <module>solution39</module>
+    <module>solution40</module>
+    <module>solution51</module>
+    <module>solution55</module>
+    <module>solution59</module>
+    <module>solution91</module>
+    <module>solution97</module>
+    <module>solution118</module>
+    <module>solution131</module>
+    <module>solution142</module>
+    <module>solution150</module>
+    <module>solution151</module>
+    <module>solution202</module>
+    <module>solution203</module>
+    <module>solution206</module>
+    <module>solution0207</module>
+    <module>solution209</module>
+    <module>solution221</module>
+    <module>solution225</module>
+    <module>solution232</module>
+    <module>solution239</module>
+    <module>solution242</module>
   </modules>
 
   <dependencies>
