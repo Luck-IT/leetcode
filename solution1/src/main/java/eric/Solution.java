@@ -1,15 +1,15 @@
-package solution1;
+package eric;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
-* Solution
-* #description#
-* @author:Eric
-* @since 1.8
-* create 2022年1月18日
-*/
+ * Solution
+ * #description#
+ * @author:Eric
+ * @since 1.8
+ * create 2022年1月18日
+ */
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         if(nums == null || nums.length <2){
