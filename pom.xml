@@ -54,6 +54,34 @@
     <module>solution232</module>
     <module>solution239</module>
     <module>solution242</module>
+    <module>solution264</module>
+    <module>solution279</module>
+    <module>solution300</module>
+    <module>solution304</module>
+    <module>solution309</module>
+    <module>solution313</module>
+    <module>solution338</module>
+    <module>solution343</module>
+    <module>solution344</module>
+    <module>solution347</module>
+    <module>solution357</module>
+    <module>solution368</module>
+    <module>solution375</module>
+    <module>solution376</module>
+    <module>solution377</module>
+    <module>solution383</module>
+    <module>solution392</module>
+    <module>solution397</module>
+    <module>solution413</module>
+    <module>solution435</module>
+    <module>solution516</module>
+    <module>solution518</module>
+    <module>solution526</module>
+    <module>solution707</module>
+    <module>solution0809</module>
+    <module>solution904</module>
+    <module>solution1047</module>
+    <module>solutionjianzhioffer05</module>
   </modules>
 
   <dependencies>
