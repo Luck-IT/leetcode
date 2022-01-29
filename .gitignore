@@ -8,3 +8,5 @@ target/
 
 #common
 *.class
+
+.idea/

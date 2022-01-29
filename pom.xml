@@ -7,6 +7,7 @@
   <groupId>eric</groupId>
   <artifactId>leetCode</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>leetCode</name>
  
@@ -16,6 +17,72 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+
+  <modules>
+    <module>solution1</module>
+    <module>solution84</module>
+    <module>solution3</module>
+    <module>solution11</module>
+    <module>solution17</module>
+    <module>solution19</module>
+    <module>solution20</module>
+    <module>solution24</module>
+    <module>solution26</module>
+    <module>solution34</module>
+    <module>solution35</module>
+    <module>solution36</module>
+    <module>solution37</module>
+    <module>solution39</module>
+    <module>solution40</module>
+    <module>solution51</module>
+    <module>solution55</module>
+    <module>solution59</module>
+    <module>solution91</module>
+    <module>solution97</module>
+    <module>solution118</module>
+    <module>solution131</module>
+    <module>solution142</module>
+    <module>solution150</module>
+    <module>solution151</module>
+    <module>solution202</module>
+    <module>solution203</module>
+    <module>solution206</module>
+    <module>solution0207</module>
+    <module>solution209</module>
+    <module>solution221</module>
+    <module>solution225</module>
+    <module>solution232</module>
+    <module>solution239</module>
+    <module>solution242</module>
+    <module>solution264</module>
+    <module>solution279</module>
+    <module>solution300</module>
+    <module>solution304</module>
+    <module>solution309</module>
+    <module>solution313</module>
+    <module>solution338</module>
+    <module>solution343</module>
+    <module>solution344</module>
+    <module>solution347</module>
+    <module>solution357</module>
+    <module>solution368</module>
+    <module>solution375</module>
+    <module>solution376</module>
+    <module>solution377</module>
+    <module>solution383</module>
+    <module>solution392</module>
+    <module>solution397</module>
+    <module>solution413</module>
+    <module>solution435</module>
+    <module>solution516</module>
+    <module>solution518</module>
+    <module>solution526</module>
+    <module>solution707</module>
+    <module>solution0809</module>
+    <module>solution904</module>
+    <module>solution1047</module>
+    <module>solutionjianzhioffer05</module>
+  </modules>
 
   <dependencies>
     <dependency>
