@@ -82,6 +82,7 @@
     <module>solution904</module>
     <module>solution1047</module>
     <module>solutionjianzhioffer05</module>
+      <module>solution144</module>
   </modules>
 
   <dependencies>
