@@ -1,6 +1,4 @@
-package solution55;
-
-import org.omg.PortableInterceptor.INACTIVE;
+package eric;
 
 /**
  * Solution #description#
