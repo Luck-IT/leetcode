@@ -90,6 +90,7 @@
         <module>solution429</module>
         <module>solution116</module>
         <module>solution104</module>
+        <module>solution111</module>
     </modules>
 
     <dependencies>
