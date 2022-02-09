@@ -88,6 +88,7 @@
         <module>solution102</module>
         <module>solution107</module>
         <module>solution429</module>
+        <module>solution116</module>
     </modules>
 
     <dependencies>
