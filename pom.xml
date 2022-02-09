@@ -85,6 +85,7 @@
         <module>solution144</module>
         <module>solution145</module>
         <module>solution94</module>
+        <module>solution102</module>
     </modules>
 
     <dependencies>
@@ -95,7 +96,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 
 </project>
