@@ -86,6 +86,7 @@
         <module>solution145</module>
         <module>solution94</module>
         <module>solution102</module>
+        <module>solution107</module>
     </modules>
 
     <dependencies>
