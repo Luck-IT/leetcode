@@ -95,6 +95,7 @@
         <module>solution101</module>
         <module>solution222</module>
         <module>solution110</module>
+        <module>solution257</module>
     </modules>
 
     <dependencies>
