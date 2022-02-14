@@ -1,4 +1,4 @@
-package solution232;
+package eric;
 
 import java.util.Stack;
 

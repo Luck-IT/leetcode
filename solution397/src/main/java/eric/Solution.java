@@ -1,4 +1,4 @@
-package solution397;
+package eric;
 
 import java.util.HashMap;
 import java.util.Map;

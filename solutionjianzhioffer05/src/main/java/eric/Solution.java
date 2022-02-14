@@ -1,4 +1,4 @@
-package solutionjianzhioffer05;
+package eric;
 
 /**
 * Solution

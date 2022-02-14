@@ -1,4 +1,4 @@
-package solution377;
+package eric;
 
 public class Solution {
     

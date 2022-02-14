@@ -1,4 +1,4 @@
-package solution39;
+package eric;
 
 import java.util.ArrayList;
 import java.util.List;

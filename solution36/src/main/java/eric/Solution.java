@@ -1,4 +1,4 @@
-package solution36;
+package eric;
 
 import java.util.ArrayList;
 import java.util.HashSet;

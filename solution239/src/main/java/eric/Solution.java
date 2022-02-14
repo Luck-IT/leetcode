@@ -1,4 +1,4 @@
-package solution239;
+package eric;
 
 import java.util.Deque;
 import java.util.LinkedList;

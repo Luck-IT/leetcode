@@ -1,4 +1,4 @@
-package solution34;
+package eric;
 
 import javax.swing.text.AbstractDocument.LeafElement;
 

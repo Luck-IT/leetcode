@@ -1,4 +1,4 @@
-package solution707;
+package eric;
 
 /**
 * MyLinkedList

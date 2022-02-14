@@ -1,4 +1,4 @@
-package solution37;
+package eric;
 
 public class Solution {
     public void solveSudoku(char[][] board) {

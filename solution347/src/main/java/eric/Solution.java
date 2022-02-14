@@ -1,4 +1,4 @@
-package solution347;
+package eric;
 
 import java.util.Comparator;
 import java.util.HashMap;

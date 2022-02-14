@@ -1,4 +1,4 @@
-package solution392;
+package eric;
 
 
 

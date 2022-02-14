@@ -1,4 +1,4 @@
-package solution376;
+package eric;
 
 public class Solution {
     public int wiggleMaxLength(int[] nums) {

@@ -1,4 +1,4 @@
-package solution304;
+package eric;
 
 import java.rmi.MarshalException;
 

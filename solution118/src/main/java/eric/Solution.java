@@ -1,4 +1,4 @@
-package solution118;
+package eric;
 
 import java.util.ArrayList;
 import java.util.Collections;

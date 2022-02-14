@@ -1,4 +1,4 @@
-package solution225;
+package eric;
 
 import java.util.LinkedList;
 import java.util.Queue;

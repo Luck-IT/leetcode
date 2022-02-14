@@ -1,4 +1,4 @@
-package solution338;
+package eric;
 
 class Solution {
     public int[] countBits(int num) {

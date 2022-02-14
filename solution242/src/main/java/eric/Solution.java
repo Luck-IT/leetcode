@@ -1,4 +1,4 @@
-package solution242;
+package eric;
 
 import java.util.Arrays;
 
