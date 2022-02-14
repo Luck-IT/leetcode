@@ -2,6 +2,8 @@ package eric;
 
 import static org.junit.Assert.assertTrue;
 
+import java.util.List;
+
 import org.junit.Test;
 
 /**
@@ -15,6 +17,8 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+       Solution s = new Solution();
+       List<List<Integer>> result = s.combinationSum3(3, 7);
+       System.out.println(result);
     }
 }
