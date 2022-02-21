@@ -8,7 +8,7 @@ public class Solution {
         if(nums.length == 1){
             return 1;
         }
-        return findMaxLength(nums);
+        return findMaxLength2(nums);
     }
 
     private int findMaxLength(int[] nums){
@@ -32,6 +32,34 @@ public class Solution {
             max = dp[i][0] > max ? dp[i][0]:max;
         }
         return max;
+    }
+
+    /**
+     * 贪心算法
+     * @param nums
+     * @return
+     */
+    private int findMaxLength2(int[] nums){
+        if(nums == null || nums.length == 0){
+            return 0;
+        }
+        if(nums.length<2){
+            return nums.length;
+        }
+
+        int result = 1;
+        int pre = 0;
+        int cur = 0;
+        for(int i=0;i<nums.length-1;i++){
+            cur = nums[i+1]-nums[i];
+            if((pre <= 0 && cur >0)||(pre >= 0 && cur <0)){
+                result++;
+                pre = cur;
+            }
+        }
+
+        return result;
+
     }
 
     public static void main(String[] args) {
