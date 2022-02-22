@@ -15,6 +15,8 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        Solution s = new Solution();
+        int result = s.maxSubArray(new int[]{-1,-1,-1,-1});
+        System.out.println(result);
     }
 }
