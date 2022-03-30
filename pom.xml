@@ -106,6 +106,7 @@
     <module>solution416</module>
     <module>solution1049</module>
     <module>solution494</module>
+    <module>solution474</module>
   </modules>
   <dependencies>
     <dependency>
