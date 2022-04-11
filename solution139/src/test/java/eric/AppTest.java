@@ -2,6 +2,8 @@ package eric;
 
 import static org.junit.Assert.assertTrue;
 
+import java.util.Arrays;
+
 import org.junit.Test;
 
 /**
@@ -15,8 +17,9 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        int[] dp = new int[]{Integer.MAX_VALUE};
-        System.out.println(dp[0] == Integer.MAX_VALUE);
-        System.out.println("");
+        Solution s = new Solution();
+        boolean result = s.wordBreak("leetcode",Arrays.asList("leet","code"));
+        System.out.println(result);
+        
     }
 }
