@@ -1,600 +1,723 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-          
+            
+  
   
   
   
   <modelVersion>4.0.0</modelVersion>
-          
+            
+  
   
   
   
   <groupId>eric</groupId>
-          
+            
+  
   
   
   
   <artifactId>leetCode</artifactId>
-          
+            
+  
   
   
   
   <version>1.0-SNAPSHOT</version>
-          
+            
+  
   
   
   
   <packaging>pom</packaging>
-          
+            
+  
   
   
   
   <name>leetCode</name>
-          
+            
+  
   
   
   
   <properties>
-                    
+                        
+    
     
     
     
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-                    
+                        
+    
     
     
     
     <maven.compiler.source>1.8</maven.compiler.source>
-                    
+                        
+    
     
     
     
     <maven.compiler.target>1.8</maven.compiler.target>
-                  
+                      
+  
   
   
   
   </properties>
-          
+            
+  
   
   
   
   <modules>
-                    
+                        
+    
     
     
     
     <module>solution1</module>
-                    
+                        
+    
     
     
     
     <module>solution84</module>
-                    
+                        
+    
     
     
     
     <module>solution3</module>
-                    
+                        
+    
     
     
     
     <module>solution11</module>
-                    
+                        
+    
     
     
     
     <module>solution17</module>
-                    
+                        
+    
     
     
     
     <module>solution34</module>
-                    
+                        
+    
     
     
     
     <module>solution20</module>
-                    
+                        
+    
     
     
     
     <module>solution24</module>
-                    
+                        
+    
     
     
     
     <module>solution19</module>
-                    
+                        
+    
     
     
     
     <module>solution36</module>
-                    
+                        
+    
     
     
     
     <module>solution26</module>
-                    
+                        
+    
     
     
     
     <module>solution35</module>
-                    
+                        
+    
     
     
     
     <module>solution37</module>
-                    
+                        
+    
     
     
     
     <module>solution39</module>
-                    
+                        
+    
     
     
     
     <module>solution40</module>
-                    
+                        
+    
     
     
     
     <module>solution51</module>
-                    
+                        
+    
     
     
     
     <module>solution55</module>
-                    
+                        
+    
     
     
     
     <module>solution59</module>
-                    
+                        
+    
     
     
     
     <module>solution91</module>
-                    
+                        
+    
     
     
     
     <module>solution97</module>
-                    
+                        
+    
     
     
     
     <module>solution118</module>
-                    
+                        
+    
     
     
     
     <module>solution131</module>
-                    
+                        
+    
     
     
     
     <module>solution142</module>
-                    
+                        
+    
     
     
     
     <module>solution150</module>
-                    
+                        
+    
     
     
     
     <module>solution347</module>
-                    
+                        
+    
     
     
     
     <module>solution357</module>
-                    
+                        
+    
     
     
     
     <module>solution151</module>
-                    
+                        
+    
     
     
     
     <module>solution368</module>
-                    
+                        
+    
     
     
     
     <module>solution375</module>
-                    
+                        
+    
     
     
     
     <module>solution202</module>
-                    
+                        
+    
     
     
     
     <module>solution376</module>
-                    
+                        
+    
     
     
     
     <module>solution377</module>
-                    
+                        
+    
     
     
     
     <module>solution203</module>
-                    
+                        
+    
     
     
     
     <module>solution383</module>
-                    
+                        
+    
     
     
     
     <module>solution392</module>
-                    
+                        
+    
     
     
     
     <module>solution206</module>
-                    
+                        
+    
     
     
     
     <module>solution397</module>
-                    
+                        
+    
     
     
     
     <module>solution413</module>
-                    
+                        
+    
     
     
     
     <module>solution0207</module>
-                    
+                        
+    
     
     
     
     <module>solution435</module>
-                    
+                        
+    
     
     
     
     <module>solution516</module>
-                    
+                        
+    
     
     
     
     <module>solution209</module>
-                    
+                        
+    
     
     
     
     <module>solution518</module>
-                    
+                        
+    
     
     
     
     <module>solution526</module>
-                    
+                        
+    
     
     
     
     <module>solution221</module>
-                    
+                        
+    
     
     
     
     <module>solution707</module>
-                    
+                        
+    
     
     
     
     <module>solution0809</module>
-                    
+                        
+    
     
     
     
     <module>solution225</module>
-                    
+                        
+    
     
     
     
     <module>solution904</module>
-                    
+                        
+    
     
     
     
     <module>solution1047</module>
-                    
+                        
+    
     
     
     
     <module>solution232</module>
-                    
+                        
+    
     
     
     
     <module>solutionjianzhioffer05</module>
-                    
+                        
+    
     
     
     
     <module>solution144</module>
-                    
+                        
+    
     
     
     
     <module>solution239</module>
-                    
+                        
+    
     
     
     
     <module>solution145</module>
-                    
+                        
+    
     
     
     
     <module>solution94</module>
-                    
+                        
+    
     
     
     
     <module>solution242</module>
-                    
+                        
+    
     
     
     
     <module>solution102</module>
-                    
+                        
+    
     
     
     
     <module>solution107</module>
-                    
+                        
+    
     
     
     
     <module>solution264</module>
-                    
+                        
+    
     
     
     
     <module>solution429</module>
-                    
+                        
+    
     
     
     
     <module>solution116</module>
-                    
+                        
+    
     
     
     
     <module>solution279</module>
-                    
+                        
+    
     
     
     
     <module>solution104</module>
-                    
+                        
+    
     
     
     
     <module>solution111</module>
-                    
+                        
+    
     
     
     
     <module>solution300</module>
-                    
+                        
+    
     
     
     
     <module>solution226</module>
-                    
+                        
+    
     
     
     
     <module>solution101</module>
-                    
+                        
+    
     
     
     
     <module>solution304</module>
-                    
+                        
+    
     
     
     
     <module>solution222</module>
-                    
+                        
+    
     
     
     
     <module>solution110</module>
-                    
+                        
+    
     
     
     
     <module>solution309</module>
-                    
+                        
+    
     
     
     
     <module>solution257</module>
-                    
+                        
+    
     
     
     
     <module>solution100</module>
-                    
+                        
+    
     
     
     
     <module>solution313</module>
-                    
+                        
+    
     
     
     
     <module>solution77</module>
-                    
+                        
+    
     
     
     
     <module>solution216</module>
-                    
+                        
+    
     
     
     
     <module>solution338</module>
-                    
+                        
+    
     
     
     
     <module>solution93</module>
-                    
+                        
+    
     
     
     
     <module>solution455</module>
-                    
+                        
+    
     
     
     
     <module>solution343</module>
-                    
+                        
+    
     
     
     
     <module>solution78</module>
-                    
+                        
+    
     
     
     
     <module>solution53</module>
-                    
+                        
+    
     
     
     
     <module>solution122</module>
-                    
+                        
+    
     
     
     
     <module>solution344</module>
-                    
+                        
+    
     
     
     
     <module>solution45</module>
-                    
+                        
+    
     
     
     
     <module>solution1005</module>
-                    
+                        
+    
     
     
     
     <module>solution134</module>
-                    
+                        
+    
     
     
     
     <module>solution860</module>
-                    
+                        
+    
     
     
     
     <module>solution63</module>
-                    
+                        
+    
     
     
     
     <module>solution96</module>
-                    
+                        
+    
     
     
     
     <module>solution416</module>
-                    
+                        
+    
     
     
     
     <module>solution1049</module>
-                    
+                        
+    
     
     
     
     <module>solution494</module>
-                    
+                        
+    
     
     
     
     <module>solution474</module>
-                    
+                        
+    
     
     
     
     <module>solution322</module>
-                  
+                      
+    
     
     
     
     <module>solution139</module>
-              
+                  
+    
     
     
     <module>solution198</module>
-          
+              
+    
     
     <module>solution213</module>
+          
+    
+    <module>solution337</module>
       
   </modules>
-          
+            
+  
   
   
   
   <dependencies>
-                    
+                        
+    
     
     
     
     <dependency>
-                              
+                                    
+      
       
       
       
       <groupId>junit</groupId>
-                              
+                                    
+      
       
       
       
       <artifactId>junit</artifactId>
-                              
+                                    
+      
       
       
       
       <version>4.13.2</version>
-                              
+                                    
+      
       
       
       
       <scope>test</scope>
-                            
+                                  
+    
     
     
     
     </dependency>
-                  
+                      
+  
   
   
   
   </dependencies>
-        
+          
+
 
 
 
