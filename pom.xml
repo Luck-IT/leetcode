@@ -120,6 +120,9 @@
         <module>solution763</module>
         <module>solution718</module>
         <module>solution509</module>
+        <module>solution62</module>
+        <module>solution70</module>
+        <module>solution1143</module>
     </modules>
     <dependencies>
         <dependency>
