@@ -123,6 +123,7 @@
         <module>solution62</module>
         <module>solution70</module>
         <module>solution1143</module>
+        <module>solution583</module>
     </modules>
     <dependencies>
         <dependency>
