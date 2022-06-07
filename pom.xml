@@ -127,6 +127,7 @@
         <module>solution72</module>
         <module>solution647</module>
         <module>solution739</module>
+        <module>solution496</module>
     </modules>
     <dependencies>
         <dependency>
